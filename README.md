@@ -36,3 +36,11 @@ Invoke-RestMethod http://localhost:8000/health
 
 La base inicia vacía: crear una cuenta local y gastos de prueba. Los datos y secretos del equipo original no están incluidos. Ejecutar una sola sesión del backend a la vez, porque usan el puerto 8000 y nombres de contenedor iguales.
 
+
+## Actividad de la sesión 7
+
+- [Respuestas y explicación de la actividad](Actividad%20-%20Sesion%207.md).
+- [Informe de implementación y verificaciones](Informe%20-%20Practica%20Sesion%207.md).
+- [Captura de favoritos recuperados tras reiniciar](Evidencias/10-favoritos-verificados-2026-10-18.png).
+
+Revisión del 18 de octubre de 2026: las diez pruebas del curso aprobaron, `dart analyze lib test` no encontró problemas y la versión web compiló correctamente. Se comprobó en Brave la persistencia de los tres favoritos. El backend real estaba apagado durante esta revisión; las pruebas con backend real documentadas en el informe son del 10 de octubre.
